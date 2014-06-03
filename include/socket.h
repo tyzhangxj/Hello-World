@@ -1,4 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <string.h>
+#include <pthread.h>
 
-void server_start(int sock);
+int server_start(int sock);

@@ -3,7 +3,7 @@ Link create_list(Link head)
 {
 	int Data;
 	char a[10];
-	a = "abc";
+	//a = "abc";
 	Link New;
 	Link Pointer;
 	head = (Link)malloc(sizeof(Node));
